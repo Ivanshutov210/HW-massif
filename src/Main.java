@@ -15,6 +15,36 @@ public class Main {
             System.out.print(first[i]);
         }
         System.out.println();
+
+        System.out.println("Задача 3");
+        int[] box = {3, 2, 1};
+        double[] klop = {9.986, 7.654, 1.57};
+        int[] boll = {20, 12, 3};
+
+        for (int i = 0; i < box.length; i++) {
+            System.out.print(box[i]);
+            if (i < box.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = 0; i < klop.length; i++) {
+            System.out.print(klop[i]);
+            if (i < klop.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = 0; i < boll.length; i++) {
+            System.out.print(boll[i]);
+            if (i < boll.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
     }
 }
 
