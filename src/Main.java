@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -45,6 +47,16 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println("Задача 4");
+        int[] boxe = {1, 2, 3};
+        for (int iq = 0; iq < boxe.length; iq++) {
+            if (boxe[iq] % 2 != 0) {
+                boxe[iq] += 1;
+            }
+        }
+            System.out.println(Arrays.toString(boxe));
+        }
     }
-}
+
+
 
