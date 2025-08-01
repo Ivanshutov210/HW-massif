@@ -6,6 +6,15 @@ public class Main {
         int[] first = new int[]{1, 2, 3};
         float[] two = {1.57f, 7.654f, 9.986f};
         int[] free = new int[10];
+
+        System.out.println("Задача 2");
+        for (int i = 0; i < first.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(first[i]);
+        }
+        System.out.println();
     }
 }
 
