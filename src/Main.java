@@ -7,7 +7,7 @@ public class Main {
         System.out.println(" Задача 1 ");
         int[] first = new int[]{1, 2, 3};
         float[] two = {1.57f, 7.654f, 9.986f};
-        int[] free = new int[10];
+        int[] free = new int[12];
 
         System.out.println("Задача 2");
         for (int i = 0; i < first.length; i++) {
@@ -18,31 +18,50 @@ public class Main {
         }
         System.out.println();
 
+        for (int i = 0; i < two.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(two[i]);
+        }
+        System.out.println();
+
+        for (int i = 0; i < free.length; i++) {
+            if (i > 0) {
+                System.out.print(", ");
+            }
+            System.out.print(free[i]);
+        }
+        System.out.println();
+
         System.out.println("Задача 3");
-        int[] box = {3, 2, 1};
-        double[] klop = {9.986, 7.654, 1.57};
-        int[] boll = {20, 12, 3};
+        int[] box = {1, 2, 3};
+        double[] klop = {1.57, 7.654, 9.986};
+        int[] boll = {3, 12, 20};
 
-        for (int i = 0; i < box.length; i++) {
-            System.out.print(box[i]);
-            if (i < box.length - 1) {
-                System.out.print(", ");
+        for (int i = box.length - 1; i >= 0; i--) {
+            if (i > 0) {
+                System.out.print(box[i] + ", ");
+            } else {
+                System.out.print(box[i]);
             }
         }
         System.out.println();
 
-        for (int i = 0; i < klop.length; i++) {
-            System.out.print(klop[i]);
-            if (i < klop.length - 1) {
-                System.out.print(", ");
+        for (int i = klop.length - 1; i >= 0; i--) {
+            if (i > 0) {
+                System.out.print(klop[i] + ", ");
+            } else {
+                System.out.print(klop[i]);
             }
         }
         System.out.println();
 
-        for (int i = 0; i < boll.length; i++) {
-            System.out.print(boll[i]);
-            if (i < boll.length - 1) {
-                System.out.print(", ");
+        for (int i = boll.length - 1; i >= 0; i--) {
+            if (i > 0) {
+                System.out.print(boll[i] + ", ");
+            } else {
+                System.out.print(boll[i]);
             }
         }
         System.out.println();
